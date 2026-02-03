@@ -58,8 +58,11 @@ The button activates the microphone for voice capture. Then Edge Impulse ML mode
 ## 🛠 Tech Stack
 
 **Hardware** Arduino Nano 33 BLE Sense, MP34DT05 MEMS microphone, 5x5 LED matrix 
+
 **ML Platform** Edge Impulse (data collection, training, deployment) 
+
 **Firmware** C++
+
 **Dataset** 4-class audio classification (Blue, Green, Red, None) 
 
 ---
