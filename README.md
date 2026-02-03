@@ -44,7 +44,7 @@ Inspired by the immersive light shows at Gardens by the Bay and the National Mus
 
 **Embedded ML**
 - Deployed TinyML model on Arduino Nano 33 BLE Sense
-- **95.6% classification accuracy** on voice commands
+- 95.6% classification accuracy on voice commands
 - 60% confidence threshold tuned through empirical testing
 - Real-time inference with no cloud dependency
 
@@ -77,6 +77,8 @@ Inspired by the immersive light shows at Gardens by the Bay and the National Mus
 |-------------|------|-------|-----|
 | Quiet (hallway) | 9/10 | 8/10 | 6/10 |
 | Noisy (classroom) | 6/10 | 6/10 | 4/10 |
+
+
 
 **Key findings:**
 - Background noise significantly impacts recognition accuracy
