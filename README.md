@@ -14,7 +14,7 @@
 
 ## 💡 Overview
 
-A voice-controlled 5x5 LED matrix that responds to spoken color commands, built as part of UW's EE 399 Singapore Study Abroad program. The system runs a TinyML model directly on the microcontroller for real-time speech recognition—no cloud required.
+A voice-controlled 5x5 LED matrix that responds to spoken color commands. The system runs a TinyML model directly on the microcontroller for real-time speech recognition—no cloud required.
 
 Inspired by immersive public displays at Gardens by the Bay and the National Museum of Singapore.
 
@@ -121,7 +121,6 @@ Inspired by immersive public displays at Gardens by the Bay and the National Mus
 - **LED Matrix Panels** — Replace individual LEDs for complex art patterns
 - **Directional Microphone** — Add cone housing to reduce ambient noise
 - **Accent Diversity** — Expand training dataset for multilingual support
-- **Adjustable Height** — Make microphone accessible to all users
 
 ---
 
