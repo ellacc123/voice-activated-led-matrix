@@ -119,22 +119,9 @@ Inspired by immersive public displays at Gardens by the Bay and the National Mus
 
 ---
 
-## 👥 Team
-
-Built for **EE 399 — Singapore Study Abroad Program** at the University of Washington
-
-**Ella Cao** · **Eileen Nguyen**
-
----
-
 ## 📚 References
 
 - [Edge Impulse + Arduino Tutorial](https://docs.arduino.cc/tutorials/nano-33-ble-sense/edge-impulse/)
 - [CloudColourSounds Dataset](https://mltools.arduino.cc/public/215176/latest)
 - [Smart Cities & Digital Trust (IEEE)](https://doi.org/10.1109/scfc62024.2024.10698207)
 
----
-
-<p align="center">
-  <sub>Built in Singapore 🇸🇬 · September 2025</sub>
-</p>
