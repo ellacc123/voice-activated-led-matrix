@@ -1,14 +1,14 @@
----
-
 ## 📺 Demo
 
 <p align="center">
-  <a href="https://www.youtube.com/shorts/5sUCpxtb52w">
-    <img src="assets/demo-thumbnail.png" alt="Demo video" width="300"/>
-  </a>
+  <video src="demo.mp4" width="300" controls>
+    Your browser does not support the video tag.
+  </video>
 </p>
 
-Speak "Red", "Green", or "Blue" → the corresponding LEDs light up in real-time.
+> Speak "Red", "Green", or "Blue" → the corresponding LEDs light up in real-time.
+>
+> [Watch on YouTube](https://www.youtube.com/shorts/5sUCpxtb52w)
 
 ---
 
