@@ -1,19 +1,3 @@
-<h1 align="center">🎨 Sound Activated Light Show</h1>
-
-<p align="center">
-  <strong>Voice-controlled LED matrix using embedded ML on Arduino</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Arduino-Nano_33_BLE_Sense-00979D?style=for-the-badge&logo=arduino" alt="Arduino"/>
-  <img src="https://img.shields.io/badge/Edge_Impulse-TinyML-4B32C3?style=for-the-badge" alt="Edge Impulse"/>
-  <img src="https://img.shields.io/badge/Accuracy-95.6%25-brightgreen?style=for-the-badge" alt="Accuracy"/>
-</p>
-
-<p align="center">
-  <a href="https://www.youtube.com/shorts/5sUCpxtb52w">🎬 Watch Demo</a>
-</p>
-
 ---
 
 ## 📺 Demo
