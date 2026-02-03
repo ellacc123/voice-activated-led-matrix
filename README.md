@@ -1,9 +1,7 @@
 ## 📺 Demo
 
 <p align="center">
-  <a href="https://www.youtube.com/shorts/5sUCpxtb52w">
-    <img src="https://img.youtube.com/vi/5sUCpxtb52w/0.jpg" alt="Demo video" width="300"/>
-  </a>
+  <img src="cover.png" alt="Breadboard setup with 5x5 LED matrix" width="500"/>
 </p>
 
 > Click the button. Say nothing, "Red", "Green", or "Blue" and the corresponding LEDs light up.
