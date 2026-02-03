@@ -1,4 +1,4 @@
-## 📺 Demo
+## Demo
 
 <p align="center">
   <a href="https://www.youtube.com/shorts/5sUCpxtb52w">
@@ -11,7 +11,7 @@ Click the button. Say nothing, "Red", "Green", or "Blue" and the corresponding L
 
 ---
 
-## 💡 Overview
+## Overview
 
 A voice-controlled 5x5 LED matrix that responds to spoken color commands. The system runs a TinyML model directly on the microcontroller for real-time speech recognition.
 
@@ -19,7 +19,7 @@ Inspired by the immersive light shows at Gardens by the Bay and the National Mus
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```
 ┌──────────┐    ┌─────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌────────────┐
@@ -35,7 +35,7 @@ The button activates the microphone for voice capture. Then Edge Impulse ML mode
 
 ---
 
-## ⚡ Technical Highlights
+## Technical Highlights
 
 **Embedded ML**
 - Deployed TinyML model on Arduino Nano 33 BLE Sense
@@ -64,7 +64,7 @@ The button activates the microphone for voice capture. Then Edge Impulse ML mode
 
 ---
 
-## 📊 Results
+## Results
 
 **Confusion Matrix (Edge Impulse Model)**
 
@@ -84,13 +84,12 @@ The button activates the microphone for voice capture. Then Edge Impulse ML mode
 | Noisy (classroom) | 6/10 | 6/10 | 4/10 |
 
 **Key findings:**
-- Background noise significantly impacts recognition accuracy
-- "Red" consistently underperforms (aligned with confusion matrix predictions)
-- Proposed fix: directional microphone cone to isolate voice input
-
+I found that background noise significantly impacts recognition accuracy, and "Red" consistently underperforms, which
+aligns with my confusion matrix predictions. My solution is to implement directional microphone cone to isolate voice input,
+and train Edge Impulse ML on a more robust voice dataset.
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Hardware Required
 - Arduino Nano 33 BLE Sense
@@ -121,15 +120,7 @@ The button activates the microphone for voice capture. Then Edge Impulse ML mode
 
 ---
 
-## 🔮 Future Improvements
-
-- **LED Matrix Panels** — Replace individual LEDs for complex art patterns
-- **Directional Microphone** — Add cone housing to reduce ambient noise
-- **Accent Diversity** — Expand training dataset for multilingual support
-
----
-
-## 📚 References
+## References
 
 - [Edge Impulse + Arduino Tutorial](https://docs.arduino.cc/tutorials/nano-33-ble-sense/edge-impulse/)
 - [CloudColourSounds Dataset](https://mltools.arduino.cc/public/215176/latest)
