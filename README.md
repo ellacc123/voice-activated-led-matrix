@@ -15,8 +15,6 @@ Click the button. Say nothing, "Red", "Green", or "Blue" and the corresponding L
 
 A voice-controlled 5x5 LED matrix that responds to spoken color commands. The system runs a TinyML model directly on the microcontroller for real-time speech recognition.
 
-Inspired by the immersive light shows at Gardens by the Bay and the National Museum of Singapore.
-
 ---
 
 ## System Architecture
