@@ -95,7 +95,7 @@ Inspired by immersive public displays at Gardens by the Bay and the National Mus
 
 ### Breadboard setup
 <p align="center">
-  <img src="breadboardsetup.png" alt="Breadboard setup with 5x5 LED matrix" width="500"/>
+  <img src="BreadboardSetup.png" alt="Breadboard setup with 5x5 LED matrix" width="500"/>
 </p>
 
 ### Software Setup
