@@ -67,14 +67,22 @@ The button activates the microphone for voice capture. Then Edge Impulse ML mode
 
 ---
 
-## 📊 Results
+**Confusion Matrix (Edge Impulse Model)**
+
+|  | BLUE | GREEN | NOT_WORD | RED |
+|---|:---:|:---:|:---:|:---:|
+| **BLUE** | **100%** | 0% | 0% | 0% |
+| **GREEN** | 0% | **100%** | 0% | 0% |
+| **NOT_WORD** | 5.6% | 11.1% | **83.3%** | 0% |
+| **RED** | 0% | 5.3% | 2.6% | **92.1%** |
+| **F1 Score** | 0.99 | 0.95 | 0.88 | 0.96 |
+
+**Real-World Testing**
 
 | Environment | Blue | Green | Red |
-|-------------|------|-------|-----|
+|-------------|:----:|:-----:|:---:|
 | Quiet (hallway) | 9/10 | 8/10 | 6/10 |
 | Noisy (classroom) | 6/10 | 6/10 | 4/10 |
-
-
 
 **Key findings:**
 - Background noise significantly impacts recognition accuracy
