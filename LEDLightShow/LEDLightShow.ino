@@ -5,6 +5,7 @@
 // Description: A voice-activated LED light show that uses a PDM microphone and 
 // Edge Impulse inferencing to trigger different LED patterns
 
+
 /* Edge Impulse ingestion SDK
  * Copyright (c) 2022 EdgeImpulse Inc.
  *
