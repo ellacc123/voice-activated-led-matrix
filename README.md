@@ -14,22 +14,22 @@
 
 ## 💡 Overview
 
-A voice-controlled 5x5 LED matrix that responds to spoken color commands. The system runs a TinyML model directly on the microcontroller for real-time speech recognition—no cloud required.
+A voice-controlled 5x5 LED matrix that responds to spoken color commands. The system runs a TinyML model directly on the microcontroller for real-time speech recognition.
 
-Inspired by immersive public displays at Gardens by the Bay and the National Museum of Singapore.
+Inspired by the immersive light shows at Gardens by the Bay and the National Museum of Singapore.
 
 ---
 
 ## 🏗 System Architecture
 
 ```
-┌──────────┐    ┌─────────────┐    ┌─────────────┐    ┌────────────┐
-│  Button  │───▶│ Microphone  │───▶│  Edge       │───▶│  5x5 LED   │
-│  Press   │    │ (MP34DT05)  │    │  Impulse ML │    │  Matrix    │
-└──────────┘    └─────────────┘    └─────────────┘    └────────────┘
-                                          │
-                                   ≥60% confidence
-                                   triggers output
+┌──────────┐    ┌─────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌────────────┐
+│  Button  │───▶│  Human  │───▶│ Microphone  │───▶│ Edge        │───▶│  Arduino    │───▶│  5x5 LED   │
+│  Press   │    │  Voice  │    │ (MP34DT05)  │    │ Impulse ML  │    │  Nano 33    │    │  Matrix    │
+└──────────┘    └─────────┘    └─────────────┘    └─────────────┘    └─────────────┘    └────────────┘
+                                                         │
+                                                  ≥60% confidence
+                                                  triggers output
 ```
 
 | Component | Description |
@@ -66,7 +66,7 @@ Inspired by immersive public displays at Gardens by the Bay and the National Mus
 |----------|-------------|
 | **Hardware** | Arduino Nano 33 BLE Sense, MP34DT05 MEMS microphone, 5x5 LED matrix |
 | **ML Platform** | Edge Impulse (data collection, training, deployment) |
-| **Firmware** | C++ (modified `nano_ble33_sense_microphone` example) |
+| **Firmware** | C++ |
 | **Dataset** | 4-class audio classification (Blue, Green, Red, None) |
 
 ---
