@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Speak "Red", "Green", or "Blue" → the corresponding LEDs light up in real-time.
+> Click the button, say nothing, "Red", "Green", or "Blue" and the corresponding LEDs light up.
 >
 > **[Watch Demo](https://www.youtube.com/shorts/5sUCpxtb52w)**
 
