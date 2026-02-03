@@ -32,11 +32,7 @@ Inspired by the immersive light shows at Gardens by the Bay and the National Mus
                                                   triggers output
 ```
 
-| Component | Description |
-|-----------|-------------|
-| **Input** | Button activates microphone for voice capture |
-| **Processing** | Edge Impulse ML model classifies speech (Blue / Red / Green / None) |
-| **Output** | 5x5 LED matrix displays corresponding color pattern |
+The button activates the microphone for voice capture. Then Edge Impulse ML model classifies speech (Blue / Red / Green / None), and the arduino outputs the 5x5 LED matrix displays corresponding color pattern.
 
 ---
 
