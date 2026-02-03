@@ -4,14 +4,6 @@
 //
 // Description: A voice-activated LED light show that uses a PDM microphone and 
 // Edge Impulse inferencing to trigger different LED patterns
-//
-// Additonal Note: Most code is from Edge Impulse example "nano_ble33_sense_microphone",
-// modified by Ella Cao & Eileen Nguyen for LED light show output. Our modifications
-// will be denoted by: 
-//    // =======================================================================================================
-//    // =======================================================================================================
-
-
 
 /* Edge Impulse ingestion SDK
  * Copyright (c) 2022 EdgeImpulse Inc.
