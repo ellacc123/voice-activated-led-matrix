@@ -90,6 +90,7 @@ The button activates the microphone for voice capture. Then Edge Impulse ML mode
 I found that background noise significantly impacts recognition accuracy, and "Red" consistently underperforms, which
 aligns with my confusion matrix predictions. My solution is to implement directional microphone cone to isolate voice input,
 and train Edge Impulse ML on a more robust voice dataset.
+
 ---
 
 ## Getting Started
