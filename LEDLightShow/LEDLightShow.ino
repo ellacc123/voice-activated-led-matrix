@@ -49,17 +49,12 @@
 
 
 /* Global Variables -------------------------------------------------------- */
-// =======================================================================================================
-// =======================================================================================================
 const int BLUE_PIN = 3; // class 0 
 const int GREEN_PIN = 5; // class 1 
 //class 2 is no command
 const int RED_PIN = 13; // class 3 
 const int BIN_PIN = 12; // button to control microphone
 const float THRESH = 0.6f; // threshold for lighting an LED
-// =======================================================================================================
-// =======================================================================================================
-
 
 /** Audio buffers, pointers and selectors */
 typedef struct {
@@ -96,9 +91,7 @@ void setup()
         ei_printf("ERR: Could not allocate audio buffer (size %d), this could be due to the window length of your model\r\n", EI_CLASSIFIER_RAW_SAMPLE_COUNT);
         return;
     }
-
-    // =======================================================================================================
-    // =======================================================================================================
+    
     pinMode(BLUE_PIN, OUTPUT);
     pinMode(GREEN_PIN, OUTPUT);
     pinMode(RED_PIN, OUTPUT);
@@ -106,19 +99,13 @@ void setup()
     digitalWrite(BLUE_PIN, LOW);
     digitalWrite(GREEN_PIN, LOW);
     digitalWrite(RED_PIN, LOW);
-    // =======================================================================================================
-    // =======================================================================================================
 }
 
 /**
  * @brief      Arduino main function. Runs the inferencing loop.
  */
 void loop() {
-    // =======================================================================================================
-    // =======================================================================================================
     if (digitalRead(BIN_PIN) == LOW) { //Triggers microphone when button is pressed
-    // =======================================================================================================
-    // =======================================================================================================
         
         ei_printf("Starting inferencing in 2 second...\n");
         delay(1000);
@@ -160,9 +147,6 @@ void loop() {
     #if EI_CLASSIFIER_HAS_ANOMALY == 1
         ei_printf("    anomaly score: %.3f\n", result.anomaly);
     #endif
-       
-        // =======================================================================================================
-        // =======================================================================================================
         // LED output based on classification results
         if (EI_CLASSIFIER_LABEL_COUNT >= 4) {
            
@@ -205,8 +189,6 @@ void loop() {
             digitalWrite(GREEN_PIN, LOW);
             digitalWrite(RED_PIN, LOW);
         }
-        // =======================================================================================================
-        // =======================================================================================================
     }
 }
 
@@ -235,10 +217,8 @@ static void pdm_data_ready_inference_callback(void)
 }
 
 
-// =======================================================================================================
-// =======================================================================================================
-//Name: blinkPattern
-//Description: Triggered when BIN_PIN is low/pressed, but no voice command is given
+// Name: blinkPattern
+// Description: Triggered when BIN_PIN is low/pressed, but no voice command is given
 void blinkPattern() {
   //Red on & off
   digitalWrite(RED_PIN, HIGH);
@@ -265,8 +245,6 @@ void blinkPattern() {
   digitalWrite(BLUE_PIN, LOW);
   delay(500);
 }
-// =======================================================================================================
-// =======================================================================================================
 
 
 /**
