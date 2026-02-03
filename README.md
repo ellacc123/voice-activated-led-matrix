@@ -93,6 +93,11 @@ Inspired by immersive public displays at Gardens by the Bay and the National Mus
 - Resistors, breadboard, jumper wires
 - Push button
 
+### Breadboard setup
+<p align="center">
+  <img src="abreadboardsetup.png" alt="Breadboard setup with 5x5 LED matrix" width="500"/>
+</p>
+
 ### Software Setup
 
 1. Clone this repository
