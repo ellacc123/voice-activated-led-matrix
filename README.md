@@ -2,13 +2,12 @@
 
 <p align="center">
   <video src="demo.mp4" width="300" controls>
-    Your browser does not support the video tag.
   </video>
 </p>
 
 > Speak "Red", "Green", or "Blue" → the corresponding LEDs light up in real-time.
 >
-> [Watch on YouTube](https://www.youtube.com/shorts/5sUCpxtb52w)
+> 
 
 ---
 
