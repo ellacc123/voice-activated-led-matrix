@@ -1,5 +1,5 @@
 // Filename: LEDLightShow
-// Author: Ella Cao, Eileen Nguyen
+// Author: Ella Cao
 // Date: 9/14/2025
 //
 // Description: A voice-activated LED light show that uses a PDM microphone and 
