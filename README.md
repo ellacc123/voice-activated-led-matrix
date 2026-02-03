@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Click the button, say nothing, "Red", "Green", or "Blue" and the corresponding LEDs light up.
+> Click the button. Say nothing, "Red", "Green", or "Blue" and the corresponding LEDs light up.
 >
 > **[Watch Demo](https://www.youtube.com/shorts/5sUCpxtb52w)**
 
